@@ -1,15 +1,17 @@
 package game;
 
 public class item {
-	private String mname;
-	private int mitemcode;
-	private int mitemCount;
-	private long mGUID;
+	private String _name;
+	private int _itemCode;
+	private int _itemCount;
+	private long _guid;
 	
-	public item(String name, int itemcode, int guid, int itemcount) {
-		mname = name;
-		mitemcode = itemcode;
-		mGUID = guid;
-		mitemCount = itemcount;		
+	public item(String name, int itemCode, int itemCount, int guid) {
+		_name = name;
+		_itemCode = itemCode;
+		_itemCount = itemCount;
+		_guid = guid;
 	}
+
+
 }
